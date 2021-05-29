@@ -87,7 +87,7 @@ Adds a subscription. Caller should be authorized to act on `account`.
 
 **removeSubscription**
 
-****Removes a subscription. Caller should be authorized to act on `account`.
+Removes a subscription. Caller should be authorized to act on `account`.
 
 
       removeSubscription: shared (account: [Principal]) -> async ();
