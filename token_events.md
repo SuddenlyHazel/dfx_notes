@@ -90,7 +90,7 @@ Adds a subscription. Caller should be authorized to act on `account`.
 Removes a subscription. Caller should be authorized to act on `account`.
 
 
-      removeSubscription: shared (account: [Principal]) -> async ();
+      removeSubscription: shared (account: Principal, subscriber: Principal) -> async ();
 # Thoughts
 1. Token Implementers might consider charging a token fee for registering subscriptions.
 
