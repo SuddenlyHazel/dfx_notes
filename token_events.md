@@ -41,7 +41,8 @@ May or may not be the contract principal. Flexibility included to allow for hori
 **TransferEvent**
 
 Emitted once per transaction. Sent to the subscribers of the `to` and `from` props.
-
+Metadata should be limited to a reasonable size - maybe len 1000, and not persisted. 
+Metadata should be relayed from the transfer call, maybe a `transferWithMetadata` method.
 
     public type TransferEvent = {
         to : Principal;
