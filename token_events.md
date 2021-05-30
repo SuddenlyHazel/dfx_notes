@@ -1,4 +1,4 @@
-# Proposal for Tokens Event Design
+# Proposal for Token Event Design
 
 # Introduction
 
