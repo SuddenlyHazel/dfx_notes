@@ -4,7 +4,7 @@
 
 **Summary**
 
-One of TIC’s most potent features is its [reliable](https://sdk.dfinity.org/docs/language-guide/motoko-introduction.html#_asynchronous_messaging_and_type_sound_execution), [cheap](https://github.com/dfinity/ic/blob/779549eccfcf61ac702dfc2ee6d76ffdc2db1f7f/rs/config/src/subnet_config.rs#L152), [easy to implement](https://sdk.dfinity.org/docs/language-guide/actors-async.html) asynchronous messaging system. TIC makes it incredibly simple for developers to build event driven systems. Token implementations on TIC should should be capable of publishing an event stream either to an intermediary message broker, or directly to subscribers. This document outlines some use cases and a minimum framework for consideration.
+One of TIC’s most potent features is its [reliable](https://sdk.dfinity.org/docs/language-guide/motoko-introduction.html#_asynchronous_messaging_and_type_sound_execution), [cheap](https://github.com/dfinity/ic/blob/779549eccfcf61ac702dfc2ee6d76ffdc2db1f7f/rs/config/src/subnet_config.rs#L152), [easy to utilize](https://sdk.dfinity.org/docs/language-guide/actors-async.html) asynchronous messaging system. TIC makes it incredibly simple for developers to build event driven systems. Token implementations on TIC should should be capable of publishing an event stream either to an intermediary message broker, or directly to subscribers. This document outlines some use cases and a minimum framework for consideration.
  
 **Why?**
 
