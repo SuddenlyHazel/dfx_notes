@@ -30,7 +30,7 @@ May or may not be the contract principal. Flexibility included to allow for hori
     public type EventBroker = Principal;
 
 
-## TokenEvent (super-type)
+## TokenEvent (Supertype)
 
 
     public type TokenEvent = {
@@ -51,7 +51,7 @@ Emitted once per transaction. Sent to the subscribers of the `to` and `from` pro
     };
 
 
-## AccountEvent (super-type)
+## AccountEvent (Supertype)
 
 ****
     public type AccountEvent = {
